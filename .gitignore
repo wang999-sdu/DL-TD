@@ -1,0 +1,14 @@
+assert/
+__pycache__/
+.pytest_cache/
+logs/
+model/
+vit_data/
+wtliModel/vit_pytorch/
+wtliModel/wtData/
+wtliModel/wtliNewModel/data/
+wtliModel/wtliNewModel/img/
+wtliModel/wtliNewModel/log/
+wtliModel/wtliNewModel/model/
+wtliModel/wtliNewModel/model-resnet/
+wtNewNet/
