@@ -5,11 +5,11 @@ from torch import nn
 from torch.utils.data import DataLoader
 from torch.optim.lr_scheduler import ExponentialLR
 from torch.utils.tensorboard import SummaryWriter
-from wtliModel.wtData.wtData1 import wt_create_data_index, wt_data_test, wt_get_data_label
-from wtliModel.wtData.wtDataset import WtThymusDataset
-from wtliModel.wtModel.wtModel import generate_model
-from wtliModel.wtModel.wtTrain import wtTrain
-from wtliModel.wtSet.wtSetting import parse_opts
+from TDModel.wtData.wtData1 import wt_create_data_index, wt_data_test, wt_get_data_label
+from TDModel.wtData.wtDataset import WtThymusDataset
+from TDModel.wtModel.wtModel import generate_model
+from TDModel.wtModel.wtTrain import wtTrain
+from TDModel.wtSet.wtSetting import parse_opts
 from sklearn.model_selection import train_test_split
 import nibabel
 import pandas as pd

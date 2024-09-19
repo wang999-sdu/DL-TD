@@ -9,7 +9,7 @@ from sklearn.metrics import roc_curve
 from sklearn.metrics import auc
 from tqdm import tqdm
 from utils.logger import log
-from wtliModel.wtModel.wtModel import generate_model
+from TDModel.TDModel.wtModel import generate_model
 
 
 def wtTest(

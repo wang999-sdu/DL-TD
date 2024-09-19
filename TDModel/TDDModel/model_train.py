@@ -12,16 +12,16 @@ import seaborn as sns
 from torchvision.models import ResNet101_Weights, ResNet18_Weights, ResNet152_Weights, ResNet50_Weights
 import pandas as pd
 
-from wtliModel.wtCommons.wt_earlys import wt_EarlyStopping
-from wtliModel.wtliNewModel.data_process import CTDataset
+from TDModel.wtCommons.wt_earlys import wt_EarlyStopping
+from TDModel.wtliNewModel.data_process import CTDataset
 import torchio as tio
-from wtliModel.wtCommons.wt_log import wt_log
+from TDModel.wtCommons.wt_log import wt_log
 from scipy.signal import savgol_filter
 from sklearn.metrics import roc_curve
 from scipy.interpolate import interp1d
 from PIL import Image
 
-from wtliModel.wtliNewModel.wt_contrast import ResNet50Classifier, VitClassifier, ResNet18Classifier, \
+from TDModel.wtliNewModel.wt_contrast import ResNet50Classifier, VitClassifier, ResNet18Classifier, \
     ResNet152Classifier, MobilenetClassifier, DensenetClassifier
 
 

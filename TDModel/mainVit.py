@@ -16,7 +16,7 @@ from torch.utils.data import DataLoader, Dataset
 from torchvision import transforms
 from tqdm.notebook import tqdm
 from linformer import Linformer
-from wtliModel.vit_pytorch.efficient import ViT
+from TDModel.vit_pytorch.efficient import ViT
 
 # Training settings
 batch_size = 64

@@ -9,7 +9,7 @@ from pytorch_grad_cam import GradCAM, HiResCAM, ScoreCAM, GradCAMPlusPlus, Ablat
 from torchvision.models import resnet50, resnet101
 from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
 import os
-from wtliModel.wtliNewModel.model_train import ResNetClassifier
+from TDModel.TDDModel.model_train import ResNetClassifier
 from tqdm import tqdm
 import shutil
 
